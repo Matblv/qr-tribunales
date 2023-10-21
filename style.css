@@ -10,6 +10,7 @@ body {
     background-color: black;
     /* font-family: 'Bebas Neue', sans-serif; */
     font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
 }
 
 .header {
@@ -73,7 +74,7 @@ body {
 
 .background {
     position: absolute;
-    height: 100vh;
+    /* height: 100%; */
     width: 100vw;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.6);
